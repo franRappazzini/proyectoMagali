@@ -51,9 +51,6 @@ html {
     }
 
     .main__mi-musica {
-      width: 92%;
-      margin: auto;
-
       .mi-musica__text {
         font-weight: 800;
         font-size: 35px;
@@ -64,7 +61,6 @@ html {
       }
 
       .mi-musica__container {
-        margin: auto;
         margin-bottom: 4rem;
 
         p {
@@ -76,6 +72,17 @@ html {
 
       .mi-musica__youtube {
         margin: auto;
+      }
+    }
+
+    .main__ultimos-temas {
+      .ultimos-temas__text {
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 43px;
+        letter-spacing: -0.015em;
+        color: #fc4845;
+        margin: 4rem 0rem 3rem 0rem;
       }
     }
   }

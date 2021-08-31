@@ -10689,11 +10689,6 @@ html main .main__carousel .carousel__text-inner p {
   letter-spacing: -0.015em;
 }
 
-html main .main__mi-musica {
-  width: 92%;
-  margin: auto;
-}
-
 html main .main__mi-musica .mi-musica__text {
   font-weight: 800;
   font-size: 35px;
@@ -10704,7 +10699,6 @@ html main .main__mi-musica .mi-musica__text {
 }
 
 html main .main__mi-musica .mi-musica__container {
-  margin: auto;
   margin-bottom: 4rem;
 }
 
@@ -10716,5 +10710,14 @@ html main .main__mi-musica .mi-musica__container p {
 
 html main .main__mi-musica .mi-musica__youtube {
   margin: auto;
+}
+
+html main .main__ultimos-temas .ultimos-temas__text {
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 43px;
+  letter-spacing: -0.015em;
+  color: #fc4845;
+  margin: 4rem 0rem 3rem 0rem;
 }
 /*# sourceMappingURL=style.css.map */
