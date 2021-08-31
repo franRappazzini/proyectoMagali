@@ -1,0 +1,65 @@
+html {
+  font-family: "Montserrat", sans-serif;
+
+  header {
+    background-color: #191414;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    .header__container {
+      height: 5.5rem;
+      width: 85%;
+      margin: auto;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      .nav__link {
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0rem 3rem;
+      }
+
+      .img__logo-social {
+        margin: 0rem 0.5rem;
+      }
+    }
+  }
+
+  main {
+    .main__carousel {
+      .carousel__img {
+        height: 33.5rem;
+        object-fit: cover;
+      }
+
+      .carousel__text-inner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        p {
+          font-weight: 700;
+          font-size: 45px;
+          line-height: 55px;
+          letter-spacing: -0.015em;
+        }
+      }
+    }
+
+    .main__mi-musica {
+      margin: 4rem 0rem 3rem 0rem;
+
+      .mi-musica__text {
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 43px;
+        letter-spacing: -0.015em;
+        color: #fc4845;
+      }
+    }
+  }
+}
