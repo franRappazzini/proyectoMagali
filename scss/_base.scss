@@ -51,6 +51,9 @@ html {
     }
 
     .main__mi-musica {
+      width: 92%;
+      margin: auto;
+
       .mi-musica__text {
         font-weight: 800;
         font-size: 35px;
@@ -61,14 +64,18 @@ html {
       }
 
       .mi-musica__container {
-        width: 90%;
         margin: auto;
+        margin-bottom: 4rem;
 
         p {
           font-size: 20px;
           line-height: 24px;
           letter-spacing: -0.015em;
         }
+      }
+
+      .mi-musica__youtube {
+        margin: auto;
       }
     }
   }
