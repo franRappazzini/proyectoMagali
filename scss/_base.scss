@@ -7,23 +7,50 @@ html {
 
     .header__container {
       height: 5.5rem;
-      width: 85%;
-      margin: auto;
-    }
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
+      .nav__ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
 
-      .nav__link {
-        color: #ffffff;
-        text-decoration: none;
-        margin: 0rem 3rem;
+        .nav__link {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 20px;
+          letter-spacing: -0.015em;
+          color: #ffffff;
+          text-decoration: none;
+          margin: 0rem 2rem;
+        }
       }
 
-      .img__logo-social {
-        margin: 0rem 0.5rem;
+      .redes-sociales__ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        .img__logo-social {
+          margin: 0rem 0.5rem;
+        }
+      }
+    }
+
+    .header__burger-menu {
+      display: none;
+    }
+
+    @media only screen and (max-width: 991px) {
+      .header__container {
+        display: none;
+      }
+
+      .header__burger-menu {
+        display: block;
       }
     }
   }
@@ -211,5 +238,7 @@ html {
         }
       }
     }
+
+    // joe
   }
 }

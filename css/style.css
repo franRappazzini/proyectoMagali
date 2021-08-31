@@ -10650,24 +10650,50 @@ html header {
 
 html header .header__container {
   height: 5.5rem;
-  width: 85%;
-  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-html header ul {
+html header .header__container .nav__ul {
+  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-html header ul .nav__link {
+html header .header__container .nav__ul .nav__link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.015em;
   color: #ffffff;
   text-decoration: none;
-  margin: 0rem 3rem;
+  margin: 0rem 2rem;
 }
 
-html header ul .img__logo-social {
+html header .header__container .redes-sociales__ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+html header .header__container .redes-sociales__ul .img__logo-social {
   margin: 0rem 0.5rem;
+}
+
+html header .header__burger-menu {
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  html header .header__container {
+    display: none;
+  }
+  html header .header__burger-menu {
+    display: block;
+  }
 }
 
 html main .main__carousel .carousel__img {
@@ -10680,7 +10706,6 @@ html main .main__carousel .carousel__text-inner {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  align-items: center;
 }
 
 html main .main__carousel .carousel__text-inner p {
