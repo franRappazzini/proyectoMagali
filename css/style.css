@@ -10689,15 +10689,23 @@ html main .main__carousel .carousel__text-inner p {
   letter-spacing: -0.015em;
 }
 
-html main .main__mi-musica {
-  margin: 4rem 0rem 3rem 0rem;
-}
-
 html main .main__mi-musica .mi-musica__text {
   font-weight: 800;
   font-size: 35px;
   line-height: 43px;
   letter-spacing: -0.015em;
   color: #fc4845;
+  margin: 4rem 0rem 3rem 0rem;
+}
+
+html main .main__mi-musica .mi-musica__container {
+  width: 90%;
+  margin: auto;
+}
+
+html main .main__mi-musica .mi-musica__container p {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
 }
 /*# sourceMappingURL=style.css.map */

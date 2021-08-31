@@ -51,14 +51,24 @@ html {
     }
 
     .main__mi-musica {
-      margin: 4rem 0rem 3rem 0rem;
-
       .mi-musica__text {
         font-weight: 800;
         font-size: 35px;
         line-height: 43px;
         letter-spacing: -0.015em;
         color: #fc4845;
+        margin: 4rem 0rem 3rem 0rem;
+      }
+
+      .mi-musica__container {
+        width: 90%;
+        margin: auto;
+
+        p {
+          font-size: 20px;
+          line-height: 24px;
+          letter-spacing: -0.015em;
+        }
       }
     }
   }
