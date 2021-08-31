@@ -46,6 +46,11 @@ html {
           font-size: 45px;
           line-height: 55px;
           letter-spacing: -0.015em;
+          color: #ffffff;
+        }
+
+        img {
+          width: 381px;
         }
       }
     }
@@ -119,6 +124,19 @@ html {
       .main__carousel {
         .carousel__img {
           height: 232px;
+        }
+
+        .carousel__text-inner {
+          p {
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 40px;
+            letter-spacing: -0.015em;
+          }
+
+          img {
+            width: 122px;
+          }
         }
       }
 
