@@ -10712,8 +10712,11 @@ html header .header__burger-menu {
     color: black;
   }
   html header .header__burger-menu .ul__logos-social {
-    padding: 0.5rem 0rem;
+    padding: 1rem 0rem;
     border-top: 0.5px solid;
+  }
+  html header .header__burger-menu .ul__logos-social .img__logo-social--facebook {
+    margin: 0rem 0.5rem;
   }
 }
 
