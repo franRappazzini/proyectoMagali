@@ -84,6 +84,34 @@ html {
         color: #fc4845;
         margin: 4rem 0rem 3rem 0rem;
       }
+
+      .ultimos-temas__tema {
+        p {
+          font-size: 25px;
+          line-height: 30px;
+          letter-spacing: -0.015em;
+          margin: 1rem 0rem;
+        }
+      }
+
+      .ultimos-temas__youtube {
+        margin: 3rem 0rem;
+
+        a {
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+          letter-spacing: -0.015em;
+          color: #ffffff;
+          text-decoration: none;
+          padding: 1rem 2rem;
+          background-color: #ff543e;
+          border-radius: 6px;
+          &:active {
+            box-shadow: 0 5px 3px #333;
+          }
+        }
+      }
     }
   }
 }
