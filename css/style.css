@@ -10651,6 +10651,10 @@ html header {
   z-index: 101;
 }
 
+html header .header__logo img:hover {
+  transform: scale(1.05);
+}
+
 html header .header__container {
   height: 88px;
   display: flex;
@@ -10691,8 +10695,8 @@ html header .header__container .redes-sociales__ul {
   padding: 0;
 }
 
-html header .header__container .redes-sociales__ul .img__logo-social {
-  margin: 0rem 0.5rem;
+html header .header__container .redes-sociales__ul .img__logo-social--facebook {
+  margin: 0rem 1rem;
 }
 
 html header .header__burger-menu {

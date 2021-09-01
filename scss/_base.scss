@@ -8,6 +8,12 @@ html {
     top: 0;
     z-index: 101;
 
+    .header__logo img {
+      &:hover {
+        transform: scale(1.05);
+      }
+    } // preguntar por esto
+
     .header__container {
       height: 88px;
       display: flex;
@@ -45,8 +51,8 @@ html {
         margin: 0;
         padding: 0;
 
-        .img__logo-social {
-          margin: 0rem 0.5rem;
+        .img__logo-social--facebook {
+          margin: 0rem 1rem;
         }
       }
     }
