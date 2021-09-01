@@ -1,5 +1,8 @@
 // metodo ready
-$(() => clickBtnOpenBurgerMenu());
+$(() => {
+  clickBtnOpenBurgerMenu();
+  changeColorSVG();
+});
 
 // function al clickear el btn de burger menu
 function clickBtnOpenBurgerMenu() {
@@ -74,4 +77,41 @@ function crearImgBurgerMenu() {
   />`);
 
   clickBtnOpenBurgerMenu();
+}
+
+// ---------------------------------------------------------
+
+function changeColorSVG() {
+  // instagram
+  $("#imgInstaWhite").mouseenter(() => {
+    $("#imgInstaWhite").hide();
+    $("#imgInstaRed").show();
+  });
+
+  $("#imgInstaRed").mouseleave(() => {
+    $("#imgInstaRed").hide();
+    $("#imgInstaWhite").show();
+  });
+
+  // facebook
+  $("#imgFaceWhite").mouseenter(() => {
+    $("#imgFaceWhite").hide();
+    $("#imgFaceRed").show();
+  });
+
+  $("#imgFaceRed").mouseleave(() => {
+    $("#imgFaceRed").hide();
+    $("#imgFaceWhite").show();
+  });
+
+  // youtube
+  $("#imgYTWhite").mouseenter(() => {
+    $("#imgYTWhite").hide();
+    $("#imgYTRed").show();
+  });
+
+  $("#imgYTRed").mouseleave(() => {
+    $("#imgYTRed").hide();
+    $("#imgYTWhite").show();
+  });
 }
