@@ -9,7 +9,7 @@ html {
     z-index: 101;
 
     .header__container {
-      height: 5.5rem;
+      height: 88px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -56,6 +56,8 @@ html {
     }
 
     @media only screen and (max-width: 991px) {
+      height: 64px;
+
       .header__container {
         display: none;
       }

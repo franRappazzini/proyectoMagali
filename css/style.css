@@ -10652,7 +10652,7 @@ html header {
 }
 
 html header .header__container {
-  height: 5.5rem;
+  height: 88px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10700,6 +10700,9 @@ html header .header__burger-menu {
 }
 
 @media only screen and (max-width: 991px) {
+  html header {
+    height: 64px;
+  }
   html header .header__container {
     display: none;
   }
