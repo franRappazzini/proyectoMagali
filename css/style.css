@@ -10646,6 +10646,9 @@ html {
 html header {
   background-color: #191414;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: sticky;
+  top: 0;
+  z-index: 101;
 }
 
 html header .header__container {
@@ -10670,6 +10673,15 @@ html header .header__container .nav__ul .nav__link {
   color: #ffffff;
   text-decoration: none;
   margin: 0rem 2rem;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition: background-size 0.5s;
+}
+
+html header .header__container .nav__ul .nav__link:hover {
+  background-size: 100% 1px;
 }
 
 html header .header__container .redes-sociales__ul {
@@ -10710,6 +10722,14 @@ html header .header__burger-menu {
     letter-spacing: -0.015em;
     text-decoration: none;
     color: black;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size 0.5s;
+  }
+  html header .header__burger-menu ul .li__nav-burger .nav__link-burger:active {
+    background-size: 100% 1px;
   }
   html header .header__burger-menu .ul__logos-social {
     padding: 1rem 0rem;
