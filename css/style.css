@@ -10695,7 +10695,11 @@ html header .header__container .redes-sociales__ul {
   padding: 0;
 }
 
-html header .header__container .redes-sociales__ul .img__logo-social--facebook {
+html header .header__container .redes-sociales__ul .svg__red-social:hover path, html header .header__container .redes-sociales__ul .svg__red-social--face:hover path {
+  fill: #fc4845;
+}
+
+html header .header__container .redes-sociales__ul .svg__red-social--face {
   margin: 0rem 1rem;
 }
 
@@ -10742,8 +10746,14 @@ html header .header__burger-menu {
     padding: 1rem 0rem;
     border-top: 0.5px solid;
   }
-  html header .header__burger-menu .ul__logos-social .img__logo-social--facebook {
-    margin: 0rem 0.5rem;
+  html header .header__burger-menu .ul__logos-social .svg__red-social:active path, html header .header__burger-menu .ul__logos-social .header__container .redes-sociales__ul .svg__red-social--face:active path, html header .header__container .redes-sociales__ul .header__burger-menu .ul__logos-social .svg__red-social--face:active path {
+    fill: #fc4845;
+  }
+  html header .header__burger-menu .ul__logos-social .svg__red-social--face {
+    margin: 0rem 1rem;
+  }
+  html header .header__burger-menu .ul__logos-social .svg__red-social--face:active path {
+    fill: #fc4845;
   }
 }
 
@@ -10799,20 +10809,8 @@ html main .main__mi-musica .mi-musica__youtube div {
   margin-bottom: 1rem;
 }
 
-html main .main__mi-musica .mi-musica__youtube div .iframe__container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-}
-
-html main .main__mi-musica .mi-musica__youtube div .iframe__container iframe {
+html main .main__mi-musica .mi-musica__youtube div iframe {
   margin-bottom: 1rem;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 html main .main__mi-musica .mi-musica__youtube div .youtube__text {
