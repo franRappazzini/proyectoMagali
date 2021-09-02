@@ -2,6 +2,7 @@
 $(() => {
   clickBtnOpenBurgerMenu();
   changeColorSVG();
+  changeColorSVGMobile();
 });
 
 // function al clickear el btn de burger menu
@@ -79,8 +80,8 @@ function crearImgBurgerMenu() {
   clickBtnOpenBurgerMenu();
 }
 
-// ----------desktop----------
-// cambia los svg al hacer hover
+// --------------------
+// cambia los svg al hacer hover en desktop
 function changeColorSVG() {
   // instagram
   $("#imgInstaWhite").mouseenter(() => {
@@ -114,4 +115,40 @@ function changeColorSVG() {
     $("#imgYTRed").hide();
     $("#imgYTWhite").show();
   });
+}
+
+// cambia los svg al hacer hover en mobile
+function changeColorSVGMobile() {
+  // instagram
+  $("#imgInstaBlack").click(() => {
+    $("#imgInstaBlack").hide();
+    $("#imgInstaRed2").show();
+  });
+
+  // $("#imgInstaRed2").change(() => {
+  //   $("#imgInstaRed2").hide();
+  //   $("#imgInstaBlack").show();
+  // });
+
+  // facebook
+  $("#imgFaceBlack").click(() => {
+    $("#imgFaceBlack").hide();
+    $("#imgFaceRed2").show();
+  });
+
+  // $("#imgFaceRed2").mouseleave(() => {
+  //   $("#imgFaceRed2").hide();
+  //   $("#imgFaceBlack").show();
+  // });
+
+  // youtube
+  $("#imgYTBlack").click(() => {
+    $("#imgYTBlack").hide();
+    $("#imgYTRed2").show();
+  });
+
+  // $("#imgYTRed2").mouseleave(() => {
+  //   $("#imgYTRed2").hide();
+  //   $("#imgYTBlack").show();
+  // });
 }
