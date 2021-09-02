@@ -8,17 +8,17 @@ html {
     top: 0;
     z-index: 101;
 
-    .header__logo img {
-      &:hover {
-        transform: scale(1.05);
-      }
-    } // preguntar por esto
-
     .header__container {
       height: 88px;
       display: flex;
       justify-content: space-between;
       align-items: center;
+
+      .header__logo img {
+        &:hover {
+          transform: scale(1.05);
+        }
+      } // preguntar por esto
 
       .nav__ul {
         display: flex;

@@ -7,8 +7,8 @@ $(() => {
 // function al clickear el btn de burger menu
 function clickBtnOpenBurgerMenu() {
   $("#btnChangeToWhite").click(() => {
-    // cambia de color el header
-    $("header").css({
+    // cambia de color el header y el navbar
+    $("header, #navBar").css({
       "background-color": "white",
       "box-shadow": "2px 2px 6px rgba(0, 0, 0, 0.25)",
     });
@@ -45,8 +45,8 @@ function crearXBurgerMenu() {
 // function al clickear el btn x del burger menu
 function clickBtnCloseBurgerMenu() {
   $("#btnChangeToBlack").click(() => {
-    // cambia de color el header
-    $("header").css({
+    // cambia de color el header y el navbar
+    $("header, #navBar").css({
       "background-color": "#191414",
       "box-shadow": "0px 4px 4px rgba(0, 0, 0, 0.25);",
     });
@@ -79,8 +79,8 @@ function crearImgBurgerMenu() {
   clickBtnOpenBurgerMenu();
 }
 
-// ---------------------------------------------------------
-
+// ----------desktop----------
+// cambia los svg al hacer hover
 function changeColorSVG() {
   // instagram
   $("#imgInstaWhite").mouseenter(() => {

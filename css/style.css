@@ -10651,15 +10651,15 @@ html header {
   z-index: 101;
 }
 
-html header .header__logo img:hover {
-  transform: scale(1.05);
-}
-
 html header .header__container {
   height: 88px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+html header .header__container .header__logo img:hover {
+  transform: scale(1.05);
 }
 
 html header .header__container .nav__ul {
