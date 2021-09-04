@@ -10727,7 +10727,7 @@ html header .header__burger-menu {
     padding: 0;
   }
   html header .header__burger-menu .burger-menu__navbar .header__logo-burgermenu img {
-    padding: 1.07rem 0rem;
+    padding: 1.08rem 0rem;
   }
   html header .header__burger-menu ul {
     list-style: none;
@@ -10755,7 +10755,7 @@ html header .header__burger-menu {
     background-size: 100% 1px;
   }
   html header .header__burger-menu .ul__logos-social {
-    padding: 1.29rem 0rem;
+    padding: 1.3rem 0rem;
     border-top: 0.5px solid black;
   }
   html header .header__burger-menu .ul__logos-social .svg__red-social:active path, html header .header__burger-menu .ul__logos-social .header__container .redes-sociales__ul .svg__red-social--face:active path, html header .header__container .redes-sociales__ul .header__burger-menu .ul__logos-social .svg__red-social--face:active path {
