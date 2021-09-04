@@ -72,14 +72,13 @@ html {
     }
 
     @media only screen and (max-width: 991px) {
-      height: 68.68px;
-
       .header__container {
         display: none;
       }
 
       .header__burger-menu {
         display: block;
+        height: 64px;
 
         .burger-menu__navbar {
           padding: 0;
@@ -89,7 +88,7 @@ html {
 
             img {
               // para que quede igual esto al .ul__logos-social
-              padding: 1.102rem 0rem;
+              padding: 1rem 0rem;
             }
           }
         }
@@ -100,7 +99,7 @@ html {
           padding: 0;
 
           .li__nav-burger {
-            padding: 0.5rem 0rem;
+            padding: 0.6rem 0rem;
             border-top: 0.5px solid;
 
             .nav__link-burger {
@@ -124,7 +123,7 @@ html {
 
         .ul__logos-social {
           // para que quede igual que la parte de donde esta el logo de magali .header__logo-burgermenu img
-          padding: 1.324rem 0rem;
+          padding: 1.22rem 0rem;
           border-top: 0.5px solid black;
 
           .svg__red-social:active {

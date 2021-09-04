@@ -10711,14 +10711,12 @@ html header .header__burger-menu {
 }
 
 @media only screen and (max-width: 991px) {
-  html header {
-    height: 68.68px;
-  }
   html header .header__container {
     display: none;
   }
   html header .header__burger-menu {
     display: block;
+    height: 64px;
   }
   html header .header__burger-menu .burger-menu__navbar {
     padding: 0;
@@ -10727,7 +10725,7 @@ html header .header__burger-menu {
     padding: 0;
   }
   html header .header__burger-menu .burger-menu__navbar .header__logo-burgermenu img {
-    padding: 1.102rem 0rem;
+    padding: 1rem 0rem;
   }
   html header .header__burger-menu ul {
     list-style: none;
@@ -10735,7 +10733,7 @@ html header .header__burger-menu {
     padding: 0;
   }
   html header .header__burger-menu ul .li__nav-burger {
-    padding: 0.5rem 0rem;
+    padding: 0.6rem 0rem;
     border-top: 0.5px solid;
   }
   html header .header__burger-menu ul .li__nav-burger .nav__link-burger {
@@ -10755,7 +10753,7 @@ html header .header__burger-menu {
     background-size: 100% 1px;
   }
   html header .header__burger-menu .ul__logos-social {
-    padding: 1.324rem 0rem;
+    padding: 1.22rem 0rem;
     border-top: 0.5px solid black;
   }
   html header .header__burger-menu .ul__logos-social .svg__red-social:active path, html header .header__burger-menu .ul__logos-social .header__container .redes-sociales__ul .svg__red-social--face:active path, html header .header__container .redes-sociales__ul .header__burger-menu .ul__logos-social .svg__red-social--face:active path {
