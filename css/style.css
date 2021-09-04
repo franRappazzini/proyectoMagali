@@ -10712,7 +10712,7 @@ html header .header__burger-menu {
 
 @media only screen and (max-width: 991px) {
   html header {
-    height: 64px;
+    height: 68.68px;
   }
   html header .header__container {
     display: none;
