@@ -10863,13 +10863,13 @@ html main .main__ultimos-temas .ultimos-temas__youtube a {
   letter-spacing: -0.015em;
   color: #ffffff;
   text-decoration: none;
-  padding: 1rem 2rem;
+  padding: 0.7rem 3rem;
   background-color: #ff543e;
   border-radius: 6px;
 }
 
 html main .main__ultimos-temas .ultimos-temas__youtube a:active {
-  box-shadow: 0 5px 5px #858585;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 @media only screen and (max-width: 760px) {
@@ -10936,23 +10936,97 @@ html main .main__ultimos-temas .ultimos-temas__youtube a:active {
     margin: 2rem 0rem 3rem 0rem;
   }
   html main .main__ultimos-temas .ultimos-temas__youtube a {
-    font-size: 22px;
-    line-height: 27px;
-    letter-spacing: -0.015em;
+    font-size: 18px;
+    line-height: 22px;
     color: #ffffff;
     text-decoration: none;
-    padding: 0.6rem 1.2rem;
+    padding: 0.6rem 1.5rem;
     background-color: #ff543e;
     border-radius: 6px;
   }
   html main .main__ultimos-temas .ultimos-temas__youtube a:active {
-    box-shadow: 0 5px 5px #858585;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
 }
 
 @media only screen and (max-width: 1199px) {
   html main .main__mi-musica .mi-musica__youtube div iframe {
     height: 150px;
+  }
+}
+
+html main .main404__svg {
+  margin: 3rem;
+}
+
+html main .main404__svg img {
+  width: 426px;
+}
+
+html main .main404__text .text__1 {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 43px;
+  letter-spacing: -0.015em;
+  color: #fc4845;
+  margin: 0;
+}
+
+html main .main404__text .text__2,
+html main .main404__text .text__3 {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 43px;
+  letter-spacing: -0.015em;
+  color: #fc4845;
+  margin: 0;
+}
+
+html main .main404__volver-inicio a {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.7rem 3rem;
+  background-color: #ff543e;
+  border-radius: 6px;
+}
+
+html main .main404__volver-inicio a:active {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media only screen and (max-width: 760px) {
+  html main .main404__svg img {
+    width: 290px;
+  }
+  html main .main404__text .text__1 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.015em;
+    color: #fc4845;
+    margin: 0;
+  }
+  html main .main404__text .text__2,
+  html main .main404__text .text__3 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.015em;
+    color: #fc4845;
+    margin: 0;
+  }
+  html main .main404__volver-inicio a {
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.6rem 1.5rem;
+    background-color: #ff543e;
+    border-radius: 6px;
   }
 }
 /*# sourceMappingURL=style.css.map */
