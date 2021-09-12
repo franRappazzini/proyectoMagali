@@ -332,9 +332,9 @@ html {
         .ultimos-temas__tema {
           margin-bottom: 1rem;
 
-          p {
-            font-size: 25px;
-            line-height: 30px;
+          a {
+            font-size: 22px;
+            line-height: 27px;
             letter-spacing: -0.015em;
             margin: 1rem 0rem;
           }
@@ -365,92 +365,6 @@ html {
           iframe {
             height: 150px;
           }
-        }
-      }
-    }
-
-    // para la page 404
-    .main404__svg {
-      margin: 3rem;
-
-      img {
-        width: 426px;
-      }
-    }
-
-    .main404__text {
-      .text__1 {
-        font-weight: bold;
-        font-size: 35px;
-        line-height: 43px;
-        letter-spacing: -0.015em;
-        color: #fc4845;
-        margin: 0;
-      }
-      .text__2,
-      .text__3 {
-        font-weight: 400;
-        font-size: 35px;
-        line-height: 43px;
-        letter-spacing: -0.015em;
-        color: #fc4845;
-        margin: 0;
-      }
-    }
-
-    .main404__volver-inicio {
-      a {
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 24px;
-        letter-spacing: -0.015em;
-        color: #ffffff;
-        text-decoration: none;
-        padding: 0.7rem 3rem;
-        background-color: #ff543e;
-        border-radius: 6px;
-        &:active {
-          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        }
-      }
-    }
-
-    @media only screen and (max-width: 760px) {
-      .main404__svg {
-        img {
-          width: 290px;
-        }
-      }
-
-      .main404__text {
-        .text__1 {
-          font-weight: bold;
-          font-size: 30px;
-          line-height: 37px;
-          letter-spacing: -0.015em;
-          color: #fc4845;
-          margin: 0;
-        }
-        .text__2,
-        .text__3 {
-          font-weight: 400;
-          font-size: 30px;
-          line-height: 37px;
-          letter-spacing: -0.015em;
-          color: #fc4845;
-          margin: 0;
-        }
-      }
-
-      .main404__volver-inicio {
-        a {
-          font-size: 18px;
-          line-height: 22px;
-          color: #ffffff;
-          text-decoration: none;
-          padding: 0.6rem 1.5rem;
-          background-color: #ff543e;
-          border-radius: 6px;
         }
       }
     }
