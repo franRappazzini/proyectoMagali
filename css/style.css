@@ -10779,21 +10779,9 @@ html main .main__carousel .carousel__img {
 
 html main .main__carousel .carousel__text-inner {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  bottom: 0;
+  right: 0;
   transform: translate(-50%, -50%);
-}
-
-html main .main__carousel .carousel__text-inner p {
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 55px;
-  letter-spacing: -0.015em;
-  color: #ffffff;
-}
-
-html main .main__carousel .carousel__text-inner img {
-  width: 381px;
 }
 
 html main .main__mi-musica .mi-musica__text {
@@ -10803,7 +10791,6 @@ html main .main__mi-musica .mi-musica__text {
   letter-spacing: -0.015em;
   color: #fc4845;
   margin: 4rem 0rem 3rem 0rem;
-  text-align: center;
 }
 
 html main .main__mi-musica .mi-musica__container {
@@ -10878,14 +10865,8 @@ html main .main__ultimos-temas .ultimos-temas__youtube a:active {
   html main .main__carousel .carousel__img {
     height: 232px;
   }
-  html main .main__carousel .carousel__text-inner p {
-    font-weight: 700;
-    font-size: 34px;
-    line-height: 40px;
-    letter-spacing: -0.015em;
-  }
   html main .main__carousel .carousel__text-inner img {
-    width: 122px;
+    width: 60px;
   }
   html main .main__mi-musica .mi-musica__text {
     font-weight: 800;
@@ -10893,7 +10874,6 @@ html main .main__ultimos-temas .ultimos-temas__youtube a:active {
     line-height: 37px;
     letter-spacing: -0.015em;
     margin: 2rem 0rem 1.5rem 0rem;
-    text-align: start;
   }
   html main .main__mi-musica .mi-musica__container {
     margin-bottom: 2rem;
