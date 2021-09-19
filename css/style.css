@@ -10793,34 +10793,16 @@ html main .main__mi-musica .mi-musica__text {
   margin: 4rem 0rem 3rem 0rem;
 }
 
-html main .main__mi-musica .mi-musica__container {
-  margin-bottom: 4rem;
-}
-
-html main .main__mi-musica .mi-musica__container p {
+html main .main__mi-musica .mi-musica__youtube p {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: -0.015em;
 }
 
-html main .main__mi-musica .mi-musica__youtube {
-  margin: auto;
-}
-
-html main .main__mi-musica .mi-musica__youtube div {
-  margin-bottom: 1rem;
-}
-
-html main .main__mi-musica .mi-musica__youtube div iframe {
+html main .main__mi-musica .mi-musica__youtube iframe {
   margin-bottom: 1rem;
   width: 100%;
   height: 238px;
-}
-
-html main .main__mi-musica .mi-musica__youtube div .youtube__text {
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: -0.015em;
 }
 
 html main .main__ultimos-temas .ultimos-temas__text {
@@ -10875,27 +10857,16 @@ html main .main__ultimos-temas .ultimos-temas__youtube a:active {
     letter-spacing: -0.015em;
     margin: 2rem 0rem 1.5rem 0rem;
   }
-  html main .main__mi-musica .mi-musica__container {
-    margin-bottom: 2rem;
+  html main .main__mi-musica .mi-musica__youtube h5, html main .main__mi-musica .mi-musica__youtube .h5 {
+    margin-top: 0.5rem;
   }
-  html main .main__mi-musica .mi-musica__container .col-md-4 {
-    margin-bottom: 1rem;
-  }
-  html main .main__mi-musica .mi-musica__container .col-md-4 p {
+  html main .main__mi-musica .mi-musica__youtube p {
     font-size: 18px;
     line-height: 22px;
     letter-spacing: -0.015em;
   }
-  html main .main__mi-musica .mi-musica__youtube div {
-    margin-bottom: 1rem;
-  }
-  html main .main__mi-musica .mi-musica__youtube div iframe {
+  html main .main__mi-musica .mi-musica__youtube iframe {
     height: 185.43px;
-  }
-  html main .main__mi-musica .mi-musica__youtube div .youtube__text {
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: -0.015em;
   }
   html main .main__ultimos-temas .ultimos-temas__text {
     font-weight: 800;
@@ -10932,7 +10903,7 @@ html main .main__ultimos-temas .ultimos-temas__youtube a:active {
 }
 
 @media only screen and (max-width: 1199px) {
-  html main .main__mi-musica .mi-musica__youtube div iframe {
+  html main .main__mi-musica .mi-musica__youtube iframe {
     height: 150px;
   }
 }
