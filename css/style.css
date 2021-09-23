@@ -10639,11 +10639,11 @@ fieldset:disabled .btn {
   }
 }
 
-html {
+body {
   font-family: "Montserrat", sans-serif;
 }
 
-html header {
+body header {
   background-color: #191414;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   position: sticky;
@@ -10651,7 +10651,7 @@ html header {
   z-index: 101;
 }
 
-html header .header__container {
+body header .header__container {
   height: 88px;
   display: flex;
   justify-content: space-between;
@@ -10661,18 +10661,18 @@ html header .header__container {
   width: 80%;
 }
 
-html header .header__container .header__logo img:hover {
+body header .header__container .header__logo img:hover {
   transform: scale(1.05);
 }
 
-html header .header__container .nav__ul {
+body header .header__container .nav__ul {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-html header .header__container .nav__ul .nav__link {
+body header .header__container .nav__ul .nav__link {
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
@@ -10687,56 +10687,56 @@ html header .header__container .nav__ul .nav__link {
   transition: background-size 0.5s;
 }
 
-html header .header__container .nav__ul .nav__link:hover {
+body header .header__container .nav__ul .nav__link:hover {
   background-size: 100% 1px;
 }
 
-html header .header__container .redes-sociales__ul {
+body header .header__container .redes-sociales__ul {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-html header .header__container .redes-sociales__ul .svg__red-social:hover path, html header .header__container .redes-sociales__ul .svg__red-social--face:hover path {
+body header .header__container .redes-sociales__ul .svg__red-social:hover path, body header .header__container .redes-sociales__ul .svg__red-social--face:hover path {
   fill: #fc4845;
 }
 
-html header .header__container .redes-sociales__ul .svg__red-social--face {
+body header .header__container .redes-sociales__ul .svg__red-social--face {
   margin: 0rem 1rem;
 }
 
-html header .header__burger-menu {
+body header .header__burger-menu {
   display: none;
 }
 
 @media only screen and (max-width: 991px) {
-  html header .header__container {
+  body header .header__container {
     display: none;
   }
-  html header .header__burger-menu {
+  body header .header__burger-menu {
     display: block;
     height: 65px;
   }
-  html header .header__burger-menu .burger-menu__navbar {
+  body header .header__burger-menu .burger-menu__navbar {
     padding: 0;
   }
-  html header .header__burger-menu .burger-menu__navbar .header__logo-burgermenu {
+  body header .header__burger-menu .burger-menu__navbar .header__logo-burgermenu {
     padding: 0;
   }
-  html header .header__burger-menu .burger-menu__navbar .header__logo-burgermenu img {
+  body header .header__burger-menu .burger-menu__navbar .header__logo-burgermenu img {
     padding: 1rem 0rem;
   }
-  html header .header__burger-menu ul {
+  body header .header__burger-menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
   }
-  html header .header__burger-menu ul .li__nav-burger {
+  body header .header__burger-menu ul .li__nav-burger {
     padding: 0.6rem 0rem;
     border-top: 0.5px solid;
   }
-  html header .header__burger-menu ul .li__nav-burger .nav__link-burger {
+  body header .header__burger-menu ul .li__nav-burger .nav__link-burger {
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
@@ -10749,42 +10749,42 @@ html header .header__burger-menu {
     background-size: 0% 1px;
     transition: background-size 0.5s;
   }
-  html header .header__burger-menu ul .li__nav-burger .nav__link-burger:active {
+  body header .header__burger-menu ul .li__nav-burger .nav__link-burger:active {
     background-size: 100% 1px;
   }
-  html header .header__burger-menu .ul__logos-social {
+  body header .header__burger-menu .ul__logos-social {
     padding: 1.22rem 0rem;
     border-top: 0.5px solid black;
   }
-  html header .header__burger-menu .ul__logos-social .svg__red-social:active path, html header .header__burger-menu .ul__logos-social .header__container .redes-sociales__ul .svg__red-social--face:active path, html header .header__container .redes-sociales__ul .header__burger-menu .ul__logos-social .svg__red-social--face:active path {
+  body header .header__burger-menu .ul__logos-social .svg__red-social:active path, body header .header__burger-menu .ul__logos-social .header__container .redes-sociales__ul .svg__red-social--face:active path, body header .header__container .redes-sociales__ul .header__burger-menu .ul__logos-social .svg__red-social--face:active path {
     fill: #fc4845;
   }
-  html header .header__burger-menu .ul__logos-social .svg__red-social--face {
+  body header .header__burger-menu .ul__logos-social .svg__red-social--face {
     margin: 0rem 1rem;
   }
-  html header .header__burger-menu .ul__logos-social .svg__red-social--face:active path {
+  body header .header__burger-menu .ul__logos-social .svg__red-social--face:active path {
     fill: #fc4845;
   }
 }
 
-html main {
+body main {
   max-width: 1440px;
   margin: auto;
 }
 
-html main .main__carousel .carousel__img {
+body main .main__carousel .carousel__img {
   height: 536px;
   object-fit: cover;
 }
 
-html main .main__carousel .carousel__text-inner {
+body main .main__carousel .carousel__text-inner {
   position: absolute;
   bottom: 0;
   right: 0;
   transform: translate(-50%, -50%);
 }
 
-html main .main__mi-musica .mi-musica__text {
+body main .main__mi-musica .mi-musica__text {
   font-weight: 800;
   font-size: 35px;
   line-height: 43px;
@@ -10793,19 +10793,19 @@ html main .main__mi-musica .mi-musica__text {
   margin: 4rem 0rem 3rem 0rem;
 }
 
-html main .main__mi-musica .mi-musica__youtube p {
+body main .main__mi-musica .mi-musica__youtube p {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: -0.015em;
 }
 
-html main .main__mi-musica .mi-musica__youtube iframe {
+body main .main__mi-musica .mi-musica__youtube iframe {
   margin-bottom: 1rem;
   width: 100%;
   height: 238px;
 }
 
-html main .main__ultimos-temas .ultimos-temas__text {
+body main .main__ultimos-temas .ultimos-temas__text {
   font-weight: 800;
   font-size: 35px;
   line-height: 43px;
@@ -10814,7 +10814,7 @@ html main .main__ultimos-temas .ultimos-temas__text {
   margin: 4rem 0rem 3rem 0rem;
 }
 
-html main .main__ultimos-temas .ultimos-temas__tema a {
+body main .main__ultimos-temas .ultimos-temas__tema a {
   text-decoration: none;
   font-size: 25px;
   line-height: 30px;
@@ -10823,11 +10823,11 @@ html main .main__ultimos-temas .ultimos-temas__tema a {
   color: black;
 }
 
-html main .main__ultimos-temas .ultimos-temas__youtube {
+body main .main__ultimos-temas .ultimos-temas__youtube {
   margin: 3rem 0rem;
 }
 
-html main .main__ultimos-temas .ultimos-temas__youtube a {
+body main .main__ultimos-temas .ultimos-temas__youtube a {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -10839,36 +10839,36 @@ html main .main__ultimos-temas .ultimos-temas__youtube a {
   border-radius: 6px;
 }
 
-html main .main__ultimos-temas .ultimos-temas__youtube a:active {
+body main .main__ultimos-temas .ultimos-temas__youtube a:active {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 @media only screen and (max-width: 760px) {
-  html main .main__carousel .carousel__img {
+  body main .main__carousel .carousel__img {
     height: 232px;
   }
-  html main .main__carousel .carousel__text-inner img {
+  body main .main__carousel .carousel__text-inner img {
     width: 60px;
   }
-  html main .main__mi-musica .mi-musica__text {
+  body main .main__mi-musica .mi-musica__text {
     font-weight: 800;
     font-size: 30px;
     line-height: 37px;
     letter-spacing: -0.015em;
     margin: 2rem 0rem 1.5rem 0rem;
   }
-  html main .main__mi-musica .mi-musica__youtube h5, html main .main__mi-musica .mi-musica__youtube .h5 {
+  body main .main__mi-musica .mi-musica__youtube h5, body main .main__mi-musica .mi-musica__youtube .h5 {
     margin-top: 1rem;
   }
-  html main .main__mi-musica .mi-musica__youtube p {
+  body main .main__mi-musica .mi-musica__youtube p {
     font-size: 18px;
     line-height: 22px;
     letter-spacing: -0.015em;
   }
-  html main .main__mi-musica .mi-musica__youtube iframe {
+  body main .main__mi-musica .mi-musica__youtube iframe {
     height: 185.43px;
   }
-  html main .main__ultimos-temas .ultimos-temas__text {
+  body main .main__ultimos-temas .ultimos-temas__text {
     font-weight: 800;
     font-size: 30px;
     line-height: 37px;
@@ -10876,19 +10876,19 @@ html main .main__ultimos-temas .ultimos-temas__youtube a:active {
     color: #fc4845;
     margin: 2rem 0rem 1.5rem 0rem;
   }
-  html main .main__ultimos-temas .ultimos-temas__tema {
+  body main .main__ultimos-temas .ultimos-temas__tema {
     margin-bottom: 1rem;
   }
-  html main .main__ultimos-temas .ultimos-temas__tema a {
+  body main .main__ultimos-temas .ultimos-temas__tema a {
     font-size: 22px;
     line-height: 27px;
     letter-spacing: -0.015em;
     margin: 1rem 0rem;
   }
-  html main .main__ultimos-temas .ultimos-temas__youtube {
+  body main .main__ultimos-temas .ultimos-temas__youtube {
     margin: 2rem 0rem 3rem 0rem;
   }
-  html main .main__ultimos-temas .ultimos-temas__youtube a {
+  body main .main__ultimos-temas .ultimos-temas__youtube a {
     font-size: 18px;
     line-height: 22px;
     color: #ffffff;
@@ -10897,13 +10897,13 @@ html main .main__ultimos-temas .ultimos-temas__youtube a:active {
     background-color: #ff543e;
     border-radius: 6px;
   }
-  html main .main__ultimos-temas .ultimos-temas__youtube a:active {
+  body main .main__ultimos-temas .ultimos-temas__youtube a:active {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
 }
 
 @media only screen and (max-width: 1199px) {
-  html main .main__mi-musica .mi-musica__youtube iframe {
+  body main .main__mi-musica .mi-musica__youtube iframe {
     height: 150px;
   }
 }
