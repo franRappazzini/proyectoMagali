@@ -23,6 +23,6 @@ Diseñadora: Jimena
 
 ### 👉🏼[Ver sitio](https://franrappazzini.github.io/proyectoMagali/)👈🏼
 
-[Mi GitHub](https://github.com/franRappazzini)
+<!-- [Mi GitHub](https://github.com/franRappazzini)
 
-[Mi LinkedIn](https://www.linkedin.com/in/franciscorappazzini/)
+[Mi LinkedIn](https://www.linkedin.com/in/franciscorappazzini/) -->
