@@ -356,18 +356,22 @@ body {
         }
 
         .mi-musica__youtube {
-          h5 {
-            margin-top: 1rem;
-          }
+          .div__container {
+            padding: 0px 24px;
 
-          p {
-            font-size: 18px;
-            line-height: 22px;
-            letter-spacing: -0.015em;
-          }
+            h5 {
+              margin-top: 1rem;
+            }
 
-          iframe {
-            height: 185.43px;
+            p {
+              font-size: 18px;
+              line-height: 22px;
+              letter-spacing: -0.015em;
+            }
+
+            iframe {
+              height: 185.43px;
+            }
           }
         }
       }
