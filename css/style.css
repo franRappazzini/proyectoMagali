@@ -11341,14 +11341,6 @@ body main .target {
   height: auto;
   background: #000000;
 }
-body main .target .circle-white {
-  width: 130px;
-  height: 130px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  background: #ffffff;
-}
 body main .target .nickname {
   font-family: Montserrat;
   font-style: normal;
