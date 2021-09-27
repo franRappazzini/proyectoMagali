@@ -516,6 +516,7 @@ body {
         color: #ffffff;
       }
     }
+    
   }
 
   @media only screen and (max-width: 1199px) {
@@ -530,8 +531,6 @@ body {
 
   .footer {
     background: #000000;
-    display: flex;
-    justify-content: center;
     .margin-footer1 {
       margin-top: 2.5rem;
       margin-bottom: 1rem;
@@ -581,12 +580,13 @@ body {
     .footer {
       background: #000000;
       .margin-footer1 {
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
       }
+
       .margin-footer2 {
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
       }
       .cantautora {
         font-family: Montserrat;
@@ -602,4 +602,22 @@ body {
       text-align: center;
     }
   }
+}
+
+.position-footer-1 {
+  position: relative;
+  right: 20px;
+  @media only screen and (max-width: 760px) { 
+    position: relative;
+    right: 0px;
+  } 
+}
+
+.position-footer-2 {
+  position: relative;
+  right: 50px;
+  @media only screen and (max-width: 760px) { 
+    position: relative;
+    right: 0px;
+  } 
 }

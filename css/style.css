@@ -11554,8 +11554,6 @@ body main .third-section .txt-style {
 }
 body .footer {
   background: #000000;
-  display: flex;
-  justify-content: center;
 }
 body .footer .margin-footer1 {
   margin-top: 2.5rem;
@@ -11603,12 +11601,12 @@ body .footer .margin-top {
     background: #000000;
   }
   body .footer .margin-footer1 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
   }
   body .footer .margin-footer2 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
   }
   body .footer .cantautora {
     font-family: Montserrat;
@@ -11621,6 +11619,28 @@ body .footer .margin-top {
   }
   body .centrando {
     text-align: center;
+  }
+}
+
+.position-footer-1 {
+  position: relative;
+  right: 20px;
+}
+@media only screen and (max-width: 760px) {
+  .position-footer-1 {
+    position: relative;
+    right: 0px;
+  }
+}
+
+.position-footer-2 {
+  position: relative;
+  right: 50px;
+}
+@media only screen and (max-width: 760px) {
+  .position-footer-2 {
+    position: relative;
+    right: 0px;
   }
 }
 
