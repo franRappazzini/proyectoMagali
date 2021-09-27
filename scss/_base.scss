@@ -588,7 +588,7 @@ body {
       }
 
       .margin-footer2 {
-        margin-top: 0.3rem;
+        margin-top: 1rem;
         margin-bottom: 0.3rem;
       }
       .cantautora {
@@ -605,6 +605,10 @@ body {
     .centrando {
       text-align: center;
     }
+
+    .div__email {
+      margin-bottom: 1rem;
+    }
   }
 }
 
@@ -614,6 +618,9 @@ body {
   @media only screen and (max-width: 760px) {
     position: relative;
     right: 0px;
+    div {
+      margin-bottom: 1rem;
+    }
   }
 }
 
