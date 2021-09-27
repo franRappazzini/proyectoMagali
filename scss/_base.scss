@@ -516,7 +516,6 @@ body {
         color: #ffffff;
       }
     }
-    
   }
 
   @media only screen and (max-width: 1199px) {
@@ -574,6 +573,10 @@ body {
     .margin-top {
       margin-top: 2.5rem;
     }
+
+    .centrando a {
+      text-decoration: none;
+    }
   }
 
   @media only screen and (max-width: 760px) {
@@ -598,6 +601,7 @@ body {
         color: #ffffff;
       }
     }
+
     .centrando {
       text-align: center;
     }
@@ -607,17 +611,17 @@ body {
 .position-footer-1 {
   position: relative;
   right: 20px;
-  @media only screen and (max-width: 760px) { 
+  @media only screen and (max-width: 760px) {
     position: relative;
     right: 0px;
-  } 
+  }
 }
 
 .position-footer-2 {
   position: relative;
   right: 50px;
-  @media only screen and (max-width: 760px) { 
+  @media only screen and (max-width: 760px) {
     position: relative;
     right: 0px;
-  } 
+  }
 }
