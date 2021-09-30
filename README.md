@@ -20,8 +20,7 @@ Diseñadora: Jimena
 
 
 
-
-### 👉🏼[Ver sitio](https://franrappazzini.github.io/proyectoMagali/)👈🏼
+### 👉🏼[Ver sitio oficial](https://www.magaligonzalezoficial.com.ar/)👈🏼
 
 <!-- [Mi GitHub](https://github.com/franRappazzini)
 
