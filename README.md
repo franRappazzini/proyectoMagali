@@ -1,5 +1,5 @@
 # Proyecto para Magali Gonzalez
-Landing Page creada para Magali Gonzalez.
+Landing Page responsive creada para Magali Gonzalez.
 
 Desarrolladores: [Joel](https://github.com/JoelIsaac) / [Francisco (yo)](https://github.com/franRappazzini). <br>
 Diseñadora: Jimena 
